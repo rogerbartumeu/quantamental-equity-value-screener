@@ -49,7 +49,7 @@ The screener pulls real-time financial data (Balance Sheet, Income Statement, Ca
 | **DE** | 380.10 | 22.1 | 1.8 | 7.2 | 14.5 |
 | **ITW** | 260.50 | 28.5 | 1.2 | 4.9 | 24.0 |
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/yourusername/quantamental-screener.git](https://github.com/yourusername/quantamental-screener.git)
