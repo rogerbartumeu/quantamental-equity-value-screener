@@ -4,14 +4,14 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-## 📌 Project Overview
+## Project Overview
 > **"Price is what you pay. Value is what you get."** — Warren Buffett.
 
 As an engineer turned finance student, I believe the *search* for value should be systematic, while the *decision* remains discretionary. This project is a Python-based engine designed to automate the **Quality at a Reasonable Price (QARP)** filtering process.
 
 It avoids generic P/E screening and instead focuses on **Capital Efficiency (ROIC)**, **Balance Sheet Health**, and **Owner Earnings** to generate a shortlist of high-quality compounders for further manual research.
 
-## 📊 The "Moat" Logic (Methodology)
+## The "Moat" Logic (Methodology)
 The screener pulls real-time financial data (Balance Sheet, Income Statement, Cash Flow) and filters the universe based on four "Buffett Pillars":
 
 ### 1. Capital Efficiency (The Moat)
@@ -34,13 +34,13 @@ The screener pulls real-time financial data (Balance Sheet, Income Statement, Ca
 * **Threshold:** `> Risk-Free Rate + 3%` (approx >7%)
 * **Why:** Buying the cash flow stream at a discount.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Core:** Python (Pandas, NumPy)
 * **Data Fetching:** yFinance API (Yahoo Finance)
 * **Visualization:** Matplotlib / Seaborn (for Quality vs. Price regression)
 * **Environment:** Jupyter Notebook
 
-## 📈 Sample Output
+## Sample Output
 *The script outputs a ranked list of "Quality Compounders" and visualizes the universe.*
 
 | Ticker | Price ($) | ROIC (%) | Net Debt/EBITDA | FCF Yield (%) | P/E |
